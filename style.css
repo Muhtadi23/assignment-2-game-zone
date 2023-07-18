@@ -181,6 +181,16 @@ li{
     font-weight: 600;
     font-size: 20px;
 }
+.game-cetagory{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 50px 280px;
+    justify-content: center;
+}
+
 
 
 /* mobile devices */
@@ -262,6 +272,16 @@ li{
     }
     .careers> img{
         width: 100%;
+    }
+    .game-cetagory {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* margin: 0 auto; */
+        gap: 40px;
+        margin-top: 50px;
+        /* padding: 50px 280px; */
+        justify-content: center;
     }
 
 }
