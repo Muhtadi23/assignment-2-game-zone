@@ -150,8 +150,7 @@ nav li {
     display: flex;
     align-items: center;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-    margin-top: 150px;
-    padding-left: 150px;
+    padding: 50px;
 }
 .careers-title{
     color: #fff;
@@ -195,12 +194,12 @@ nav li {
     display: flex;
     align-items: center;
 }
-/* .game-name:hover{
+.game-name:hover{
     width: 248px;
     height: 80px;
     border-radius: 50px;
     border:2px solid #F948B2;
-} */
+}
 
 footer{
     background: #0B0223;
@@ -310,7 +309,13 @@ footer{
         top: -100px;
     }
     .careers{
-        visibility: hidden;
+        width: 76%;
+        display: flex;
+        flex-direction: column;
+    }
+    .careers img{
+        height: 150px;
+        width: 150px;
     }
     .game-cetagory{
         display: grid;
