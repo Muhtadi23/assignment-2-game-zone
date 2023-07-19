@@ -342,3 +342,88 @@ footer{
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media screen and (min-width:426px) and (max-width: 768px) {
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        }
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        .banner-two {
+            display: flex;
+            flex-direction: column;    
+        }
+        .online-games {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .features{
+            display: flex;
+           flex-direction: column;
+           margin-bottom: 100px;
+           padding-left: 95px;
+        }
+        .feature-img-one{
+            width: 430px;
+        }
+        .small-image{
+            height: 150px;
+            width: 120px;
+            position: relative;
+            bottom: -60px;
+            left: 70px;
+        }
+        .features-two{
+            display: flex;
+           flex-direction: column;
+           margin-bottom: 100px;
+           padding-left: 95px;
+        }
+        .feature-img-two{
+            width: 320px;
+        }
+        .small-image-two {
+            height: 150px;
+            width: 120px;
+            position: relative;
+            left: -60px;
+            top: 50px;
+        }
+        .careers{
+            width: 93%;
+            display: flex;
+            flex-direction: column;
+        }
+        .careers img{
+            height: 310px;
+            width: 530px;
+        }
+
+        .game-cetagory{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        footer{
+            width: 100%;
+            padding: 25px;
+        }
+        .footer-menu{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin: 50px;
+        }
+        .footer-icon-button{
+            font-size: 10px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+}
